@@ -13,4 +13,30 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font);
+  font-variation-settings: "wght" var(--card-font-weight, 400);
+
+}
+
+.page__section {
+  width: var(--section-width);
+  margin: auto;
+}
+
+.header {
+  block-size: 323px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--acent-font);
+}
+
+.header__title {
+  font-size: var(--header-title-font-size);
+}
+
+.header__subtitle {
+  font-size: var(--header-subtitle-font-size);
+  margin-block-start: 20px;
 }
