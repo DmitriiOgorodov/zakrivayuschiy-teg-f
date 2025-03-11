@@ -130,7 +130,6 @@
 
 .button_animated:hover::after{
   scale: 1 1;
-  transition: scale 0.5s ease-in-out ;
 }
 
 .button_focused:focus-visible {
@@ -158,7 +157,14 @@
 
 .card__icon-button {
   align-items: center;
-  border: none;
+  height: 36px;
+  border: solid transparent 2px;
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  border: solid #000 2px;
+  transition: 0.3s ease;
 }
 
 .card__like-button {
