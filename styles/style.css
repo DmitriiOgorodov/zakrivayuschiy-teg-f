@@ -219,3 +219,85 @@
 .floppy {
   margin: auto;
 }
+
+.core {
+  opacity: 0;
+  transition: opacity 0.3s 0.03s;
+}
+
+.heart:hover .core {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.heart:active .core {
+  fill: #FF0000;
+  transition: fill 0.3s;
+}
+
+.main-body {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.heart:hover .main-body {
+  opacity: 1;
+  transition: opacity 0.3s 0.05s;
+}
+
+.heart:active .main-body {
+  fill: #FF0000;
+  transition: fill 0.3s 0.05s;
+}
+
+.sparks {
+  opacity: 0;
+}
+
+.like-icon.is-liked .core {
+  fill: #FF0000;
+  opacity: 1;
+  /* transition: 0.3s 2s; */
+}
+
+.like-icon.is-liked .main-body {
+  fill: #FF0000;
+  opacity: 1;
+  /* transition: 0.3s 2s; */
+}
+
+.like-icon.is-liked .contour {
+  fill: #FF0000;
+  transition: 0.3s 0.06s;
+}
+
+.like-icon.is-liked .heart{
+  animation: scale-heart 0.3s 0.1s ease-in;
+}
+
+.like-icon.is-liked .sparks{
+  animation: opacity-sparks 0.3s 0.3s ease-in;
+}
+
+.heart {
+  transform-origin: 50%;
+}
+
+@keyframes scale-heart {
+  from {
+    scale: 1;
+  }
+
+  to {
+    scale: 1.25;
+  }
+}
+
+@keyframes opacity-sparks {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
