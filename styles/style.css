@@ -43,13 +43,14 @@
 }
 
 .cards {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   border: 2px solid #000;
+  margin-block: 50px;
 }
 
 .card__title {
