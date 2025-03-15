@@ -1,19 +1,29 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
- :root {
-    --main-font: "Inter-Variable", sans-serif;
-    --acent-font: "PressStart2P", monospace;
-    --card-font-weight: 400; 
-    --card-title-font-weight: 700;
-    --card-title-margin: clamp(1.125rem, 0.839rem + 1.221vw, 1.938rem);
-    --section-width: clamp(23.438rem, 16.285rem + 30.516vi, 43.75rem);
-    --header-title-font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
-    --header-subtitle-font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
-    --contour-color: #000000;
-    /* --core-color: #000000;
+:root {
+  --main-font: "Inter-Variable", sans-serif;
+  --acent-font: "PressStart2P", monospace;
+  --card-font-weight: 400;
+  --card-title-font-weight: 700;
+  --card-title-margin: clamp(1.125rem, 0.839rem + 1.221vw, 1.938rem);
+  --section-width: clamp(23.438rem, 16.285rem + 30.516vi, 43.75rem);
+  --header-title-font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+  --header-subtitle-font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+  --contour-color: #000000;
+  /* --core-color: #000000;
     --main-body-color: #000000; */
-    --animation-fill-color: #FF0000;
-    --main-background: 
-         repeating-linear-gradient(90deg, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
-         repeating-linear-gradient(#d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
-         linear-gradient(to bottom, #e7e7e7, #1a1a1a);;
- }
+  --animation-fill-color: #ff0000;
+  --main-background: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+}
