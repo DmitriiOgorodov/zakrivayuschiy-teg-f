@@ -16,10 +16,7 @@
   min-block-size: 100dvb;
   font-variation-settings: "wght" var(--card-font-weight, 400);
   padding: 100px 0 130px;
-  background-image: 
-    repeating-linear-gradient(90deg, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
-    repeating-linear-gradient(#d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
-    linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  background-image: var(--main-background);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -92,7 +89,39 @@
 
 .card__image {
   width: 100%;
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
+}
+
+.card__image_filtered_blur {
+  filter: blur(2px);
+}
+
+.card__image_filtered_brightness {
+  filter: brightness(120%);
+}
+
+.card__image_filtered_contrast {
+  filter: contrast(50%);
+}
+
+.card__image_filtered_sepia {
+  filter: sepia(1);
+}
+
+.card__image_filtered_grayscale {
+  filter: grayscale(70%);
+}
+
+.card__image_filtered_hue-rotate {
+  filter: hue-rotate(90deg);
+}
+
+.card__image_filtered_saturate {
+  filter: saturate(4);
+}
+
+.card__image_filtered_mix {
+  filter: saturate(3) blur(2px) sepia(0.1);
 }
 
 .card__label {
@@ -316,7 +345,6 @@
   }
 
   .floppy {
-    /* margin-top: 15px; */
     inline-size: 30px;
     block-size: 30px;
   }
