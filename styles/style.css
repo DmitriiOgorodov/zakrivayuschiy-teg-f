@@ -145,7 +145,6 @@
   position: relative;
   display: flex;
   border-radius: 0;
-  background-color: transparent;
   background-color: #fff;
   cursor: pointer;
 }
