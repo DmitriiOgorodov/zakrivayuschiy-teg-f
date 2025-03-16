@@ -251,6 +251,9 @@
 
 .floppy {
   margin: auto;
+  mix-blend-mode: difference;
+  color:#fff;
+  z-index: 1;
 }
 
 .core {
