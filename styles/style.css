@@ -365,9 +365,9 @@
     block-size: 30px;
   }
 
-  .button__text {
+  /* .button__text {
     line-height: 1;
-  }
+  } */
 
   .popup {
     padding-inline: 36px;
