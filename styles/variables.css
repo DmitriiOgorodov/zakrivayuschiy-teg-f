@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-font: "Inter-Variable", sans-serif;
-  --acent-font: "PressStart2P", monospace;
+  --acent-font: "PressStart2P", fantasy;
   --card-font-weight: 400;
   --card-title-font-weight: 700;
   --card-title-margin: clamp(1.125rem, 0.839rem + 1.221vw, 1.938rem);
