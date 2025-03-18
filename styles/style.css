@@ -213,7 +213,7 @@
 .card__like-button {
   align-items: center;
   inline-size: 130px;
-  line-height: 34px;
+  height: 38px;
 }
 
 .popup[open] {
@@ -365,9 +365,9 @@
     block-size: 30px;
   }
 
-  /* .button__text {
+  .button__text {
     line-height: 1;
-  } */
+  }
 
   .popup {
     padding-inline: 36px;
