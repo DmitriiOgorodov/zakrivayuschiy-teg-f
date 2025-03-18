@@ -138,14 +138,14 @@
   opacity: 0.5;
   font-family: var(--acent-font);
   font-size: 14px;
-  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+  text-shadow: -1px 0 var(--text-shadow-color), 0 1px var(--text-shadow-color), 1px 0 var(--text-shadow-color), 0 -1px var(--text-shadow-color);
   mix-blend-mode: hard-light;
 }
 
-@supports((text-stroke: 1px #ffffff) or (-webkit-text-stroke: 1px #ffffff)) {
+@supports((text-stroke: 1px var(--text-shadow-color)) or (-webkit-text-stroke: 1px var(--text-shadow-color))) {
   .card__label {
-    -webkit-text-stroke: 1px #ffffff;
-    text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px var(--text-shadow-color);
+    text-stroke: 1px var(--text-shadow-color);
     text-shadow: none;
   }
 } 

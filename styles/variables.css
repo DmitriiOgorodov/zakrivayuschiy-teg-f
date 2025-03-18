@@ -9,6 +9,7 @@
   --header-title-font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
   --header-subtitle-font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
   --contour-color: #000000;
+  --text-shadow-color: #fff;
   /* --core-color: #000000;
     --main-body-color: #000000; */
   --animation-fill-color: #ff0000;
